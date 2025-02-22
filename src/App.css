@@ -1,0 +1,33 @@
+
+h1{
+  color:#eb9316
+}
+/* CSS styles for the gift animation */
+.gift-animation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: giftFlow 5s linear infinite;
+  z-index: 10;
+}
+
+.gift-img {
+  width: 100px; /* Adjust the size of the gift image */
+  animation: flowAnimation 3s ease-out forwards;
+}
+
+@keyframes flowAnimation {
+  0% {
+    transform: translateX(0) translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(300px) translateY(-50px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(600px) translateY(0);
+    opacity: 0;
+  }
+}
