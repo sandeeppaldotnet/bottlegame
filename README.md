@@ -13,6 +13,7 @@ The Battle Game is an interactive game where players use "Attack" or "Defence" a
 - **Victory Animation**: Displays a flowing gift animation when the player wins.
 
 ## Demo
+https://bottlegames.netlify.app/
 
 ![Game Demo](./images/game-demo.gif)  
 *Note: You can replace this with an actual demo GIF of the game in action.*
